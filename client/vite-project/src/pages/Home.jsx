@@ -26,7 +26,7 @@ const Home = () => {
       setIsLoading(true);
       try {
         const response = await fetch(
-          "https://ai-img-generator-9r2s.onrender.com/api/v1/post",
+          "https://red-4ax1.onrender.com/api/v1/post",
           {
             method: "GET",
             headers: {

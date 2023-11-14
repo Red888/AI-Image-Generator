@@ -18,7 +18,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const response = await fetch("https://ai-img-generator-9r2s.onrender.com/api/v1/dalle/", {
+        const response = await fetch("https://red-4ax1.onrender.com/api/v1/dalle/", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -46,7 +46,7 @@ const CreatePost = () => {
     if (form.prompt && form.photo) {
       setIsLoading(true);
       try {
-        const response = await fetch("https://ai-img-generator-9r2s.onrender.com/api/v1/post", {
+        const response = await fetch("https://red-4ax1.onrender.com/api/v1/post", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
